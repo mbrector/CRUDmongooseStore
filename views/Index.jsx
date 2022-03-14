@@ -10,17 +10,10 @@ class Index extends React.Component{
                     this.props.products.map((product, i) => {
                         return (
                             <li key={i}>
-                                Product: {product.name} <br />
-                                Description: {product.description} <br />
+                                Product: {product.name} <br />        
                                 <a href={`/products/${product.id}`}> <image src = {product.img}/> </a> <br />
                                 Price: {product.price} <br />
-                                Quantity: {product.qty} <br />
-
-                      
-                      {/* <form action={`/productss/${product._id}?_method=DELETE`} method="POST">
-                          <input type="submit" value="DELETE"/>
-                      </form>   
-                        */}
+                                Quantity: {product.qty} <br />               
                             </li>
                         )
                     })
