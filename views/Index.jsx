@@ -20,7 +20,7 @@ class Index extends React.Component{
                       {/* <form action={`/productss/${product._id}?_method=DELETE`} method="POST">
                           <input type="submit" value="DELETE"/>
                       </form>   
-                      <a href={`/products/${product._id}/edit`}>Edit This Product</a>  */}
+                        */}
                             </li>
                         )
                     })
