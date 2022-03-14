@@ -18,5 +18,5 @@ app.use(express.static('public'))
 app.use('/products', require('./controllers/routeController.js'))
 
 app.listen(PORT, () => {
-    console.log('Listening on ', PORT)
+    console.log('Listening on port', PORT)
 })

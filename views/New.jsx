@@ -12,10 +12,10 @@ class New extends React.Component {
                 Price: <input type = "number" name = "price" /><br />
                 Quantity: <input type = "number" name = "qty" /><br />
                 <input type="submit" name="" value="Create Product"/>
-                </form>    
-            </div>)
-            }
+            </form>    
+        </div>
+        )
     }
-
+}
 
 module.exports = New
