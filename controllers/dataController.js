@@ -1,4 +1,4 @@
-const Products = require('../models/products.js');
+const Products = require('../models/products');
 
 const dataController = {
   index(req, res, next){
@@ -11,10 +11,10 @@ const dataController = {
         res.locals.data.products = allProducts
         next()
       }
-    });
+    })
   },
   create(req, res, next){
-    Products.create(req.body, (error, createdProduct) => {
+    Products.create(req.body, (err, createdProduct) => {
         if(err){
           res.status(404).send({
             msg: err.message
@@ -23,7 +23,7 @@ const dataController = {
           res.locals.data.product = createdProduct
           next()
         }
-    });
+    })
   },
   show(req, res, next){
     Products.findById(req.params.id, (err, foundProduct)=>{
@@ -47,7 +47,7 @@ const dataController = {
         res.locals.data.product = updatedProduct
         next()
       }
-    });
+    })
   },
   destroy(req, res, next){
     Products.findByIdAndRemove(req.params.id, (err, product) => {
@@ -59,7 +59,7 @@ const dataController = {
         res.locals.data.product = product
         next()
       }
-    });
+    })
   }
 }
 

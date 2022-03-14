@@ -10,6 +10,6 @@ qty: { type: Number, required: true }
 
 })
 
-const Products = mongoose.model('Products', productsSchema)
+const Products = mongoose.model('Product', productsSchema)
 
 module.exports = Products

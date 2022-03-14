@@ -4,7 +4,7 @@ const viewController = {
     res.render('Index', res.locals.data)
   },
   new(req, res, next){
-      res.render('New')
+    res.render('New')
   },
   show(req, res, next){
     res.render('Show', res.locals.data)
