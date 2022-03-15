@@ -17,4 +17,6 @@ router.get('/:id/edit', dataController.show, viewController.edit)
 
 router.get('/:id', dataController.show, viewController.show)
 
+router.patch('/:id', dataController.buy, viewController.redirectShow)
+
 module.exports = router
