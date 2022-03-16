@@ -16,14 +16,14 @@ From the Show page you can Edit, go back to the Index, Delete, or "Buy" this pro
 
 ## Technologies Used
 
-Javascript
-JSX
-HTML5
-CSS
-Express JS
-MongoDB
-Mongoose
-Heroku
+Javascript  
+JSX  
+HTML5  
+CSS  
+Express JS  
+MongoDB  
+Mongoose  
+Heroku  
 
 ## How to install locally
 
