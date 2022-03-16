@@ -5,23 +5,23 @@ const db = require('./models/db')
 const newProducts =
     [
     {
-        name: 'Beans',
-        description: 'A small pile of beans. Buy more beans for a big pile of beans.',
-        img: 'https://cdn3.bigcommerce.com/s-a6pgxdjc7w/products/1075/images/967/416130__50605.1467418920.1280.1280.jpg?c=2',
-        price: 5,
-        qty: 99
+        name: 'Ice Cream',
+        description: 'Delicious Ice Cream just for you!',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS-V2B_jc3XR1sTbNKTLmWVbTD1Ni96fWGMw&usqp=CAU',
+        price: 3.49,
+        qty: 24
     }, {
-        name: 'Bones',
-        description: 'It\'s just a bag of bones.',
-        img: 'http://bluelips.com/prod_images_large/bones1.jpg',
-        price: 25,
-        qty: 0
+        name: 'Cookies',
+        description: 'Ooey gooey Chocolate Chip Cookies',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe144estFXzlS3p2pD5GB7z0FqDbM0whQrrw&usqp=CAU',
+        price: 12.99,
+        qty: 18
     }, {
-        name: 'Bins',
-        description: 'A stack of colorful bins for your beans and bones.',
-        img: 'http://www.clipartbest.com/cliparts/9cz/rMM/9czrMMBcE.jpeg',
-        price: 7000,
-        qty: 1
+        name: 'Milk',
+        description: 'Make your bones strong with ice cold Milk!',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHaUzGOPMLTlDRpDWkBHBXnyApCfK2b_kxZw&usqp=CAU',
+        price: 5.99,
+        qty: 12
     }
     ]
 

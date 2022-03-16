@@ -5,13 +5,13 @@ class Index extends React.Component{
         return (
         <body style = {{backgroundColor: 'aquamarine'}}>
             <div>
-                <h1 style = {{color: 'blueviolet', fontSize: '50px'}}>WAL-MATT</h1>
+                <h1 style = {{color: 'blueviolet', fontSize: '50px'}}>WALMATT</h1>
                 <ul style = {{color: 'blueviolet'}}>
                     {
                         this.props.products.map((product, i) => {
                             return (
                                 <li key={i}>
-                                    <h3>Product: {product.name} </h3>      
+                                    <h2>{product.name} </h2>      
                                     <a href={`/products/${product.id}`}> <image src = {product.img}/> </a> <br />
                                     Price: ${product.price} <br />               
                                 </li>
