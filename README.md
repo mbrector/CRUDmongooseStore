@@ -4,8 +4,8 @@ This is my second project at my Per Scholas Internship. It is a CRUD application
 
 You can see an index of all products:
 
-![Index](/CRUDmongooseStore/public/index.jpg)
+![Index](index.jpg)
 
 From there you can click on the image of something you may want to know more about or "purchase":
 
-![Show](/Projects/CRUDmongooseStore/public/show.jpg)
+![Show](show.jpg)
