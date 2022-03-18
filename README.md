@@ -33,3 +33,5 @@ Also in your terminal install needed packages with `npm install`
 You can start with a few items that I have provided with `node seeds.js`  
 Finally, in your terminal run `nodemon`  
 Then in your browser navigate to http://localhost:3000/products  
+
+I also have a video of my project here: https://www.youtube.com/watch?v=hD91QoYORXI  
